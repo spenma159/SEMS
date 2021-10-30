@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+body {
+  background-color: #e0f0ee;
+}
+body::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+body::-webkit-scrollbar-track {
+  background: #ffff;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(64, 165, 248);
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+
+.table > thead > tr > * {
+  vertical-align: middle;
+}
+
+.bg-color {
+  background-color: #b3bcbd;
+}
+
+.text-color {
+  color: #587885;
+}
+
+.text-font {
+  font-family: gramatika;
+}
+@media screen and (min-width: 768px) {
+  .navbar-nav a {
+    margin-left: 25px;
+  }
+}
